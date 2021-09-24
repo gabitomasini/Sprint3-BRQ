@@ -1,0 +1,315 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+
+body{
+
+    /* font-family: 'Inter', sans-serif; */
+
+}
+
+/* =============== MENU SUPERIOR =============== */
+
+.menu-principal{
+       
+    font-family: 'Dosis', sans-serif;
+    background-color:#22A0A0;
+    width: 100%;
+    height: 158px;
+    justify-content: space-between;  
+}
+
+
+.header-1{
+    margin: auto;
+    width: 813px;
+    padding-top: 30px;
+    
+
+}
+
+.logo{
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+.conteudo-home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* .barra-pesquisa{
+    position: relative; 
+    margin-left: 88px;
+    width: 250px; 
+} */
+
+.barra-pesquisa{
+    position: relative;
+    right: 40px;
+    margin-left: 88px;
+    padding-top: 30px;
+    width: 250px; 
+
+}
+
+.barra-pesquisa input{
+    
+    border: none;
+    width: 100%;
+    height: 38px;
+    background: #FFFFFF; 
+    border-radius: 10px;
+    margin-top: 10px;
+    display: block; 
+}
+
+    
+
+
+img.lupinha{ 
+    position: absolute;
+    padding-top: 10px;
+    top: 33px; 
+    right: 8px;
+}
+
+.menu-h{
+    padding: 10px;
+    margin-top: 50px;
+    padding-top: 0px;
+    justify-content: space-between;
+}
+
+
+.menu-h ul li{
+    display: inline;
+}
+
+
+
+.menu-h ul li a{
+    color: #FFFFFF;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+#selecionado{
+    padding: 5px;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+
+.menu-h ul li:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+
+
+
+/* =============== CONTEÚDO =============== */
+
+main{
+    width: 813px;
+    margin: auto;
+
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 30px;
+    margin: 30px;
+
+}
+
+/* todas as noticias juntas */
+
+.conteudo-pag{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/* tudo que está do lado esquerdo da barra vertical */
+
+.conteudo-esq{
+    width: 510px;
+    border-right: 1px solid #22A0A0;
+        
+}
+
+
+.conteudo-pag h2{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+.conteudo-pag h3{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 35px;
+
+    color: #000000;
+}
+
+.conteudo-pag h4{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    text-align: right;
+}
+
+.pass{
+    margin-bottom: 30px;
+}
+
+#passaporte{
+    width: 480px;
+}
+
+.lado-esq{
+    width: 210px;
+    /* margin-top: 30px; */
+}
+
+#noticias-2{
+    /* margin-top: 19px; */
+}
+
+#noticias-3{
+    margin-top: 30px;
+}
+
+.lado-dir{
+    margin-left: 260px;
+    margin-top: -599px;
+    width: 210px;
+      
+}
+
+#noticias-5{
+    margin-top: 30px;
+    
+}
+
+.noticias-6{
+    margin-left: 542px;
+    margin-top: -1001px;
+
+}
+.noticias-6 h5{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: end;
+    padding-right: 0px;
+
+    color: #000000;
+}
+
+
+
+
+
+
+
+/* =============== RODAPÉ =============== */
+
+
+#titulo{
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+} 
+
+footer{
+    position: relative;
+    width: 100%; 
+    bottom: 0px;
+    height: 130px;
+    background-color:#22A0A0;
+    margin-top: 690px;
+    
+}
+
+footer .logo{
+    
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 680px;
+}
+
+.rodape{
+    width: 813px;
+    margin: auto;
+}
+
+footer h1 {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 17px;
+    color: #FFFFFF;
+
+}
+
+.empresa-infos{
+    position: relative;
+    float: left;
+    margin-top: 25px;
+}
+
+.rodape .empresa-infos ul{
+    
+    float: left;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;          
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+
+.rodape .empresa-infos ul li{
+    
+    list-style: none;
+
+}
+

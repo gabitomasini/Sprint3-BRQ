@@ -1,0 +1,294 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+
+body{
+
+    /* font-family: 'Inter', sans-serif; */
+
+}
+
+/* =============== MENU SUPERIOR =============== */
+
+.menu-principal{
+       
+    font-family: 'Dosis', sans-serif;
+    background-color:#22A0A0;
+    width: 100%;
+    height: 158px;
+    justify-content: space-between;  
+}
+
+
+.header-1{
+    margin: auto;
+    width: 813px;
+    padding-top: 30px;
+    
+
+}
+
+.logo{
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+.conteudo-home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* .barra-pesquisa{
+    position: relative; 
+    margin-left: 88px;
+    width: 250px; 
+} */
+
+.barra-pesquisa{
+    position: relative;
+    right: 40px;
+    margin-left: 88px;
+    padding-top: 30px;
+    width: 250px; 
+
+}
+
+.barra-pesquisa input{
+    
+    border: none;
+    width: 100%;
+    height: 38px;
+    background: #FFFFFF; 
+    border-radius: 10px;
+    margin-top: 10px;
+    display: block; 
+}
+
+    
+
+
+img.lupinha{ 
+    position: absolute;
+    padding-top: 10px;
+    top: 33px; 
+    right: 8px;
+}
+
+.menu-h{
+    padding: 10px;
+    margin-top: 50px;
+    padding-top: 0px;
+    justify-content: space-between;
+}
+
+
+.menu-h ul li{
+    display: inline;
+}
+
+
+
+.menu-h ul li a{
+    color: #FFFFFF;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+#selecionado{
+    padding: 5px;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+
+.menu-h ul li:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+
+
+
+/* =============== CONTEÚDO =============== */
+
+main{
+    width: 813px;
+    margin: auto;
+
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 30px;
+    margin: 30px;
+
+}
+
+.fotos{
+    border: 50px;
+    margin: 20px;
+}
+
+.imgs_esq{
+    float: left;
+    margin-right: 0px;
+    margin-left: -20px;
+    padding: 20px;
+}
+
+.imgs_dir{
+    float: right;
+    margin-left: 0px;
+    margin-right: -30px;
+    padding: 30px;
+}
+
+.textos p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+h2{
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.h2_esq{
+    text-align: justify;
+    margin-left: 32px;
+    padding-top: 20px;
+}
+
+.h2_dir{
+    text-align: end;
+    margin-right: 21px;
+    padding-top: 20px;
+}
+
+p#festas{
+    margin-top: 22px;
+}
+
+p#territorio{
+    margin-top: 60px;
+    margin-left: 14px;
+    background: solid #DDF2F2;
+}
+
+p#vestimenta{
+    margin-top: 59px;
+}
+
+p#lugares{
+    margin-top: 50px;
+    margin-left: 14px;
+}
+
+.textos_dir{
+    padding: 15px;
+    margin-left: 0px;
+    margin-top: 60px;
+}
+
+.textos_esq{
+    padding: 15px;
+    margin-right: 0px;
+}
+
+#fundo_festas{
+    width: 100%;
+    height: 230px;
+    background-color: #DDF2F2;
+    margin-top: -182px;
+}
+
+
+#fundo_vestimenta{
+    width: 100%;
+    height: 230px;
+    background-color: #DDF2F2;
+    margin-top: -180px;
+}
+
+
+
+/* =============== RODAPÉ =============== */
+
+footer{
+    position: relative;
+    width: 100%; 
+    bottom: 0px;
+    height: 150px;
+    background-color:#22A0A0;
+    margin-top: 150px;
+        
+}
+
+footer .logo{
+    
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 680px;
+}
+
+.rodape{
+    width: 813px;
+    margin: auto;
+}
+
+footer h1 {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 17px;
+    color: #FFFFFF;
+
+}
+
+.empresa-infos{
+    position: relative;
+    float: left;
+    margin-top: 25px;
+}
+
+.rodape .empresa-infos ul{
+    
+    float: left;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;          
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.rodape .empresa-infos ul li{
+    
+    list-style: none;
+
+}
+
